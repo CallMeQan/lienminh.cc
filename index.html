@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liên minh cái cc</title>
+
+    <link rel="icon" type="image/x-icon" href="./yuumi_gun.png">
+
+    <meta property="og:title" content="liên minh cái cc" />
+    <meta property="og:description" content="bố m đang bận, chơi game cc" />
+    <meta property="og:image" content="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Yasuo_0.jpg" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://lienminh.cc" />
+
+    <style>
+        body {
+            font-family: monospace, Tahoma, Geneva, Verdana, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            text-align: center;
+            overflow: hidden;
+        }
+        .container {
+            z-index: 1;
+        }
+        img {
+            width: 140px;
+            height: 140px;
+        }
+        footer {
+            position: absolute;
+            bottom: 10px;
+            font-size: 10px;
+            color: #ccc;
+        }
+        footer a {
+            color: #bbb;
+            text-decoration: none;
+        }
+        footer a:hover {
+            text-decoration: underline;
+            color: #999;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>liên minh cc</h1>
+        <p class="random-txt">tại sao?</p>
+        <a href="https://www.reddit.com/r/leagueoflegends/comments/bpyj59/i_drew_yuumi_with_a_gun/" target="_blank">
+            <img src="./yuumi_gun.png" />
+        </a>
+    </div>
+    <script>
+        const quotes = [
+            "Hết giờ làm việc chưa mà rủ cày cuốc?",
+            "Lo mà làm việc đi, sắp tới deadline rồi kìa!",
+            "Rank gì rồi mà còn đòi chơi? Lo mà làm người đi.",
+            "Liên minh cái cc! Đi làm kiếm tiền mua cơm đi.",
+            "Bố m đang bận, chơi game cái gì mà chơi?",
+            "Lương tháng này đủ mua skin chưa mà đòi chơi?",
+            "Vào để rồi feed à? Thôi làm việc tiếp đi cho xã hội nhờ.",
+            "Đang code/làm việc gắt, đừng có rủ rê!",
+            "Bạn có 0 tin nhắn từ đồng đội, nhưng có 10 task chưa xong."
+        ];
+
+        function randomQuote() {
+            const randomIndex = Math.floor(Math.random() * quotes.length);
+            document.querySelector('.random-txt').innerText = quotes[randomIndex];
+        }
+
+        window.onload = randomQuote;
+    </script>
+    <footer>
+        <a href="https://github.com/CallMeQan/lienminh.cc" target="_blank">github</a>
+    </footer>
+</body>
+</html>
