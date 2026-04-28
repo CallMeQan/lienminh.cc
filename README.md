@@ -8,4 +8,4 @@ Yes, anything you want to be on this website :))
 
 ## Credit
 
-[Yuumi picture](https://www.reddit.com/r/leagueoflegends/comments/bpyj59/i_drew_yuumi_with_a_gun/)
+[Yuumi picture](https://www.reddit.com/r/leagueoflegends/comments/bpyj59/i_drew_yuumi_with_a_gun/) but I make background transparent :)
