@@ -7,10 +7,6 @@
   },
   "assets": {
     "directory": ".",
-    "exclude": [
-      ".git/**",
-      ".wrangler/**"
-    ]
   },
   "compatibility_flags": [
     "nodejs_compat"
