@@ -9,9 +9,9 @@
 
     <meta property="og:title" content="liên minh cái cc" />
     <meta property="og:description" content="bố m đang bận, chơi game cc" />
-    <!--<meta property="og:image" content="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Yasuo_0.jpg" />
--->
-    
+    <meta property="og:image" content="https://lienminh.cc/yuumi_gun.webp" />
+    <meta property="og:image:width" content="140" />
+    <meta property="og:image:height" content="140" />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://lienminh.cc" />
 
@@ -50,13 +50,13 @@
     </style>
 </head>
 <body>
-    <div class="container">
+    <main class="container">
         <h1>liên minh cc</h1>
         <p class="random-txt">tại sao?</p>
-        <a href="https://www.reddit.com/r/leagueoflegends/comments/bpyj59/i_drew_yuumi_with_a_gun/" target="_blank">
-            <img src="yuumi_gun.png" /> 
+        <a href="https://www.reddit.com/r/leagueoflegends/comments/bpyj59/i_drew_yuumi_with_a_gun/" target="_blank" aria-label="Yuumi image link to reddit">
+            <img src="yuumi_gun.webp" fetchpriority="high" alt="Yuumi pointing gun at you"/> 
         </a>
-    </div>
+    </main>
     <script>
         const quotes = [
             "Hết giờ làm việc chưa mà rủ cày cuốc?",
@@ -74,10 +74,10 @@
             document.querySelector('.random-txt').innerText = quotes[randomIndex];
         }
 
-        window.onload = randomQuote;
+        document.addEventListener('DOMContentLoaded', randomQuote);
     </script>
     <footer>
-        <a href="https://github.com/CallMeQan/lienminh.cc" target="_blank">github</a>
+        <a href="https://github.com/CallMeQan/lienminh.cc" target="_blank" aria-label="Contribute this website">github</a>
     </footer>
 </body>
 </html>
